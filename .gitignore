@@ -1,0 +1,12 @@
+# Python caches (Bohot kachra jama karte hain)
+__pycache__/
+*.pyc
+
+# Virtual Environment (Kabhi GitHub par push nahi karna chahiye, size bohot bada hota hai)
+venv/
+projenv
+
+# Large data and models (GitHub file size limit ko cross kar sakte hain)
+# Note: Agar aapka data/model chhota hai aur pipeline ke liye zaroori hai toh inhe comment out kar dein.
+models/*.pkl
+data/*.csv
