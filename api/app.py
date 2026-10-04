@@ -20,5 +20,5 @@ def predict_purchase(data: CustomerData):
     input_data = [[data.Age, data.AnnualSalary, data.CreditScore]]
     prediction = model.predict(input_data)
     
-    result = "Will Purchase" if prediction[0] == 1 else "Will Not Purchase"
+    result = "Tiwari ji Kharid lenge " if prediction[0] == 1 else "Tiwari ji nahi kharidenge"
     return {"prediction": result}
